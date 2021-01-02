@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body>
+    <h1 id="title">freeCodeCamp Survey Form</h1>
+    <p id="description">Thank you for taking the time to help us improve the platform</p>
+    <div id="content">
+    <form id="survey-form">
+        <lable for="name" >Name</lable><br>
+        <input type="text" id="name" name="name" placeholder="Enter your name"><br>
+        <lable for="email">Email</lable><br>
+        <input type="text" id="email" name="email" placeholder="Enter your Email"><br>
+        <lable for="age">Age(optional)</lable><br>
+        <input type="age" id="age" name="age" placeholder="Age" ><br>
+        <lable for="drop-down">Which option best describes your current role?</lable><br>
+        <select id = "drop-down" name="description" aria-placeholder="Select curren role">
+            <option disabled selected value>Select current role</option>
+            <option value="student">Student</option>
+            <option value="full time job">Full Time Job</option>
+            <option value="full time learner">Full Time Learner</option>
+            <option value="Prefer Not To Say">prefer not to say</option>
+            <option value="other">Other</option>
+        </select><br>
+        <p>Which option best describes your current role?</p><br>
+        <input  type="radio" id ="definately" name="recommend" value="definately">
+        <lable for="definately">Definately</lable><br>
+        <input type="Radio" id = "maybe" name="recommend" value="mayve">
+        <lable for="maybe">Maybe</lable><br>
+        <input type="radio" id="not_sure" name="recommend" value="not_sure">
+        <lable for="not_sure">Not sure</lable><br>
+        
+
+        <p>What would you like to see improved? (Check all that apply)</p>
+        <input type="checkbox" id="front" name="front" value="front_End">
+        <lable for="front">Front-end Projects</lable><br>
+        <input type="checkbox"  id="back" name="back" value="back-end">
+        <lable for="back">Back-end Projects</lable><br>
+        <input type="checkbox" id="data" name="data" value="data visualization">
+        <lable for="data">visualization</lable><br>
+        <input type="checkbox" id="challenges" name="challenges" value="challenges">
+        <lable for="challenges">Challenges</lable><br>
+        <input type="checkbox" id="open_source" name="open_source" value="open_source">
+        <lable for="open_source">Open Source Comunity</lable><br>
+        <input type="checkbox" id="gitter_help" name="gitter_help" value="gitter_help">
+        <lable for="gitter_help">Gitter help rooms</lable><br>
+        <input type="checkbox" id="videos" name="videos" value="videos">
+        <lable for="videos">Videos</lable><br>
+        <input type="checkbox" id="city_meet_ups" name="meet_ups" value="meet_ups">
+        <lable for="city_meet_ups">City_meetups</lable><br>
+        
+        <p>Any comments or suggestions?</p>
+        <textarea id="comments" rows="5"></textarea><BR>
+        <lable for="comments"></lable>
+        <div class="btn">
+            <button type="submit" id="submit" class="submit-button">
+                SUBMIT
+            </button>
+        </div>
+
+    </form>
+</div>
+</body>
+</html>

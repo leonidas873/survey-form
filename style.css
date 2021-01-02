@@ -1,0 +1,38 @@
+body{
+    margin:0;
+    padding:0;
+    background-color:rgb(176, 218, 215);
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+
+}
+
+#content{
+    background-color: blueviolet;
+    color:white;
+    
+}
+form{
+    margin:20px;
+    
+}
+
+
+
+#name, #age, #email, #comments{
+    
+    width:98.1%;
+    border-radius:5px;
+    
+    
+}
+
+.btn{
+    
+
+    display:flex;
+    justify-content:center;
+    margin-top:20px;
+
+}
